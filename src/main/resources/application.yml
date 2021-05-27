@@ -1,13 +1,14 @@
 server:
   port: 8080
-  servlet:    context-path: /bootcamp
+  servlet:
+    context-path: /bootcamp
     
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123
+    url: postgres://hrleosyodnubbh:88dd5283fbabb49ea2ffb2ac0345d80e69efb245616c47cf07973189e3b15236@ec2-184-73-198-174.compute-1.amazonaws.com:5432/d14so22ell4dcp
+    username: hrleosyodnubbh
+    password: 88dd5283fbabb49ea2ffb2ac0345d80e69efb245616c47cf07973189e3b15236
     
   jpa:
     show-sql: true
@@ -15,4 +16,6 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: none
-application:  description: Projeto criado para o Bootcamp DIO - Santander Dev Week
+
+application:
+  description: Projeto criado para o Bootcamp DIO - Santander Dev Week
