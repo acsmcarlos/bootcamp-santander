@@ -15,7 +15,7 @@
 	<name>bootcamp</name>
 	<description>Back-end criado para o bootcamp</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
